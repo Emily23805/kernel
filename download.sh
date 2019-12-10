@@ -5,7 +5,8 @@ read KV
 echo "kernel Advanced verson example : 4.1.13"
 echo "kernel Advanced verson"
 read KAV
-wget https://mirrors.edge.kernel.org/pub/linux/kernel/v$KV/linux-$KAV.tar.gz
+wget https://cdn.kernel.org/pub/linux/kernel/v$KV/linux-$KAV.tar.xz
+
 #This site is newell-server open mirror url
 #
 #
